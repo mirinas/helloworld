@@ -1,11 +1,38 @@
+body {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_map_of_France.svg/1045px-Flag_map_of_France.svg.png');
+    background-size: cover;
+}
+
+nav {
+    display: inline-block;
+}
+
+@media (max-width: 1400px) {
+    nav {
+        display: block;
+    }
+    nav * {
+        display: block;
+        margin: auto;
+        width: 30%;
+    }
+    #logo + a {
+        margin-left: auto;
+    }
+}
+
 #logo {
     font-size: 36px;
     margin-left: 2em;
 }
 
+#logo + a {
+    margin-left: 6em;
+}
+
 header a {
     font-size: 24px;
-    margin-right: 6em;
+    margin-right: 3em;
     padding: 0 3em;
     color: #a8a892;
     text-decoration: none;
