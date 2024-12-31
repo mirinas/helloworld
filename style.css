@@ -1,17 +1,21 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
 h1, h3 {
     text-align: center;
+    /* width: 50%; */
 }
 
 .green-bg {
     background: green;
+    color: rgb(255, 255, 255);
 }
 
 .fav-lang {
     text-align: center;
-}
-
-#article > p {
-    border: 1px solid black;
 }
 
 #python ~ li {
@@ -24,4 +28,41 @@ a:hover {
 
 #long-para::first-letter {
     font-size: 32px;
+}
+
+#article > p {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#long-para {
+    background: lightgrey;
+    padding: 1em 3em;
+    margin: 1em 2em 3em 4em;
+    text-align: justify;
+    cursor: progress;
+    transition: all 1s;
+}
+#long-para:hover {
+    border-width: 5px;
+    color: white;
+    background: grey;
+}
+
+
+
+
+input {
+    width: 300px;
+}
+input[type="submit"] {
+    width: 100px;
+}
+a {
+    cursor: default;
+}
+
+img {
+    margin: auto;
+    display: block;
 }

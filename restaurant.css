@@ -1,0 +1,16 @@
+#logo {
+    font-size: 36px;
+    margin-left: 2em;
+}
+
+header a {
+    font-size: 24px;
+    margin-right: 6em;
+    padding: 0 3em;
+    color: #a8a892;
+    text-decoration: none;
+}
+header a:hover {
+    border-bottom: 2px dashed;
+    background: #e9e9db;
+}
