@@ -1,3 +1,27 @@
-body {
-    background: grey;
+h1, h3 {
+    text-align: center;
+}
+
+.green-bg {
+    background: green;
+}
+
+.fav-lang {
+    text-align: center;
+}
+
+#article > p {
+    border: 1px solid black;
+}
+
+#python ~ li {
+    color: blue;
+}
+
+a:hover {
+    color: green;
+}
+
+#long-para::first-letter {
+    font-size: 32px;
 }
